@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personal Portafolio | Guillermo Arvizu</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Portafolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu()">Acerca de mí</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Experiencia</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Trabajo</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hola, soy<br><span>Guillermo Arvizu.</span></h2>
+            <h3>Frontend Developer</h3>
+            <a href="#about" class="btn">Acerca de mí</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Acerca de mí</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Soy desarrollador Frontend</h3>
+                <p>Profesional en computación, con conocimientos y experiencia en análisis de sistemas. y desarrollo
+                web. Comprometido con la responsabilidad, empatía y trabajo en equipo <br><br>Maquetado de interfaces de usuario con HTML , CSS y Bootstrap, programación del lado del
+                cliente con JavaScript, TypeScript (Angular), AJAX.
+
+                <br><br>Desarrollo de estrategias y mensajes que logren impactar al público objetivo, con el fin de lograr
+                que un grupo de personas adopte el comportamiento deseado.</p>
+            </div>
+            <div class="w50">
+                <img src="img/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Experiencia</h2>
+            <p>Tengo experiencia en empresas como Kokonut Studio, Los Bisquets Bisquets Obregón e Instituto Eductivo Panamericano</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon/pana.jpg">
+                <h2>Web Developer</h2>
+                <p>Desarrollo de estrategias y mensajes que logren impactar al público objetivo, con el fin de lograr que un grupo de personas adopte el comportamiento deseado por el instituto, realizando una plataforma que sirve como herramienta digital para complementar los conocimientos obtenidos por los alumnos de los diferentes niveles educativos a través de guías interactuvas.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon/icon5.jpg">
+                <h2>Líder de proyecto</h2>
+                <p>Apoyar al franquiciatario operador en la administracion y operacón de punto de venta e inventarios, así como proveer indicaciones diarias que ayuden a tener una mejor gestión del restaurante y una mayor perspectiva de las operaciones del personal que colabora en la operación del restaurante.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon/icon1.png">
+                <h2>Frontend Developer</h2>
+                <p>Maquetado de interfaces de usuario con HTML , CSS y Bootstrap, programación del lado del cliente con JavaScript, TypeScript (Angular), AJAX.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h1>Participaciones</h1>
+            <h2>SOLTEK</h2> <p>Kokonut Studio</p>
+            <p>Aplicación para la verificación de seguridad que realiza Soltek a los contenedores durante viajes en la república mexicana. Proyecto en que colboré realizando un CMS para gestionar usuarios, vehículos, instalaciones de Kits de seguridad y Supervisiones a los kits de seguridad instalados.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="img/product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/product2.jpg">
+            </div>
+        </div> <br>
+
+        <div class="heading">
+            <h2>Grupo Coppel</h2> <p>Kokonut Studio</p>
+            <p>Análisis de la aplicación nativa iOS y Android para recursos humanos donde se puede consultar comprobantes de nómina, estado de cuenta, fondo de ahorro y beneficios de Colaborador Coppel</p>
+        </div>
+        <div class="heading">
+            <a href="https://play.google.com/store/apps/details?id=com.coppel.rhconecta.dev&hl=en_US&gl=US" target="_blank" class="btn">Ver más</a>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright 2021 Guillermo Arvizu. All Right Reserved.</p>
+    </div>
+
+    <script src="js/scroll.js" type="text/javascript"></script>
+
+</body>
+
+</html>
